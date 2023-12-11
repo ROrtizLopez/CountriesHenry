@@ -1,0 +1,39 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 18px;
+    margin: 9px;
+    transition: transform 0.3s, border-radius 0.3s;
+    border-radius: 8px;
+    border: solid 4px;
+    border-color: #347A98;
+    width: 240px;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Hacer ligeramente más grande en hover */
+    border-radius: 10px;
+    background-color: #020D20;
+}
+
+.flag {
+    width: 90%;
+    max-height: 150px;
+    object-fit: cover; 
+    border-radius: 8px;
+    margin-bottom: 12px; 
+}
+
+.countryName {
+    font-size: 25px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    letter-spacing: 1px;
+}
+
+.paragp {
+    font-size: 16px;
+    letter-spacing: .5px;
+    color: #92DEF2 
+}

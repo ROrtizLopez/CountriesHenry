@@ -1,0 +1,14 @@
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+}
+
+.notFound {
+    border-radius: 8px;
+    text-align: center;
+}
+
+

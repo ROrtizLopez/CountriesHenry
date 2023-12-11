@@ -1,0 +1,10 @@
+export const GET_COUNTRIES = 'GET_COUNTRIES';
+export const GET_COUNTRY_NAME = 'GET_COUNTRY_NAME';
+
+export const CLEAR_SEARCH = 'CLEAR_SEARCH';
+export const APPLY_FILTERS = 'APPLY_FILTERS';
+export const RESET_FILTERS = 'RESET_FILTERS';
+
+export const CREATE_ACTIVITY = 'CREATE_ACTIVITY';
+export const GET_ACTIVITIES = 'GET_ACTIVITIES';
+

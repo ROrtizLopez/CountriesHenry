@@ -1,0 +1,79 @@
+.filterContainer {
+    display: flex inline-block;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.sortContainer {
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    align-items: baseline;
+}
+
+.filtersContainer {
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    margin-bottom: 5px;
+    padding: 5px;
+    align-items: baseline;
+}
+
+.sortSelect {
+    border-radius: 6px;
+    padding: 2px;
+    margin-right: 5px;
+    width: auto;
+    font-family: 'Comfortaa', sans-serif
+}
+
+.filterSelect {
+    border-radius: 6px;
+    padding: 2px;
+    margin-right: 5px;
+    width: auto;
+    font-family: 'Comfortaa', sans-serif;
+    align-self: center;
+}
+
+.label {
+    padding: 2px;
+    margin: 3px;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: bold;
+    align-self: center;
+}
+
+.button {
+    border: 1px solid #31738F;
+    border-radius: 5px;
+    background-color: #C6EEF8;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: color 0.3s;
+    margin: 2px;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.button:hover {
+    color: #31738F;
+    font-weight: bold;
+    background-color: aliceblue;
+}
+
+
+
+

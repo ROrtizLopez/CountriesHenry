@@ -1,0 +1,60 @@
+.pagesContainer {
+    display: flex;
+    justify-content: center;
+    background-color: #000812;
+    border-radius: 8px;
+    padding: 2px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1%;
+    padding: 4px;
+    margin: 20px;
+    margin-bottom: 5px;
+}
+
+.btnPageChange{
+    border: 2px solid #31738F;
+    border-radius: 8px;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: color 0.3s;
+    margin: 2px;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: small;
+    align-items: baseline;
+    background-color: #b8cbd3;
+}
+
+.btnPageChange:hover {
+    color: #31738F;
+    font-weight: bold;
+  }
+
+.btnPage {
+    font-family: 'Comfortaa', sans-serif;
+    padding: 12px;
+    margin: 2px;
+    height: 35px;
+    width: 40px;
+    align-content: center;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s, border-radius 0.3s;
+    background-color:#597A88;
+    color: #0E2B42; 
+    border: 2px solid #0E2B42;
+}
+
+.btnPage:hover {
+    /* transform: scale(1.05); */
+    color: #030F26
+}
+.btnPage:disabled {
+    background-color: #b8cbd3;
+}
+
+
+.spanPages {
+    align-self: center;
+}

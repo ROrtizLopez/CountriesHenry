@@ -1,0 +1,138 @@
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'Comfortaa', sans-serif;
+    border: solid 3px #003366;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 20px;
+    background-image: url('../../assets/ActivitiesFormBG.jpg'); 
+    background-size: contain;
+    background-position: center top;
+    gap:5px;
+}
+
+.title {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    text-align: center;
+    align-self: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    letter-spacing: 2px;
+    color: #b8cbd3;
+    text-shadow:
+    1px 1px 0 #000812,
+    -1px 1px 0 #000812,
+    -1px -1px 0 #000812,
+    1px -1px 0 #000812;
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    text-align: center;
+}
+
+.nameCont, 
+.difficultyCont,
+.durationCont,
+.seasonCont,
+.countriesContainer
+ {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8px;
+    margin: 8px;
+    font-family: 'Comfortaa', sans-serif;
+    align-items: center;
+    color: whitesmoke;
+    text-shadow:
+    1px 1px 0 #000812,
+    -1px 1px 0 #000812,
+    -1px -1px 0 #000812,
+    1px -1px 0 #000812;
+} 
+
+.span {
+    color: #8082CA;
+    margin: 2.5px;
+    font-size: small;
+    text-shadow: none;
+}
+
+
+.label {
+    padding: 2px;
+    margin: 3px;
+    font-family: 'Comfortaa', sans-serif;
+    align-self: center;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+
+
+.inputs {
+    border-radius: 6px;
+    padding: 3px;
+    margin-right: 5px;
+    height: 100%;
+    width: auto;
+    font-family: 'Comfortaa', sans-serif;
+    background-color: #b8cbd3;
+}
+
+.inputsNumb {
+    border-radius: 6px;
+    padding: 3px;
+    margin-right: 5px;
+    height: 100%;
+    width: 5%;
+    font-family: 'Comfortaa', sans-serif;
+    background-color: #b8cbd3;
+}
+
+.selectCountries {
+    justify-content: center;
+    align-content: center;
+    background-color: #b8cbd3;
+}
+
+.spanCountries {
+    color: #8082CA;
+    opacity: 0.80;
+    margin: 2.5px;
+    font-size: small;
+    text-align: center;
+    padding: 3px;
+}
+
+.btnDiv {
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    margin: 20px;
+    font-size: 18px;
+}
+
+.btnCreate { 
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid ;
+    opacity: 0.90;
+    cursor: pointer;
+    transition: all 0.3s ease;  
+}
+
+.btnCreate:hover {
+    transform: scale(1.05);
+    font-weight: bold;
+    opacity: 1;
+    box-shadow: 0 0 10px #003D7A;
+
+}
